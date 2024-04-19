@@ -10,10 +10,16 @@ export default function RestaurantsStack () {
         <Stack.Navigator>
             <Stack.Screen
                 name='RestaurantsScreen'
-                component={RestaurantsScreen} />
+                component={RestaurantsScreen}
+                options={{
+                  title: 'Restaurants'
+                }}/>
             <Stack.Screen
                 name='RestaurantDetailScreen'
-                component={RestaurantDetailScreen} />
+                component={RestaurantDetailScreen}
+                options={{
+                  title: 'Restaurant Detail'
+                }}/>
         </Stack.Navigator>
   )
 }
