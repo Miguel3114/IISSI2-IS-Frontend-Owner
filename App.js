@@ -13,7 +13,7 @@ export default function App () {
       <Tab.Navigator>
         <Tab.Screen
           name="Restaurants"
-          component={RestaurantsScreen} />
+          component={RestaurantsStack} />
         <Tab.Screen
           name="Control Panel"
           component={ControlPanelScreen} />
